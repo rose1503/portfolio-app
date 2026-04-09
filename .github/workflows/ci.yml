@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: ssh to linux and run container
-         uses: appleboy/ssh-action@v5
+         uses: appleboy/ssh-action@v4
          with:
             host: ${{ secrets.HOST }}
             username: ${{ secrets.SSH_USERNAME }}
